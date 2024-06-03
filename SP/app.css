@@ -14,19 +14,11 @@ body {
 a {
   text-decoration: none;
 }
-.landingHeader {
-  height: 200px;
-  padding-left: 60px;
-  background-color: black;
-}
-img {
-  height: max-content;
-}
 
 .landingMain {
-  height: 780px;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
   padding: 50px;
@@ -63,16 +55,20 @@ img {
 }
 .landingTextDiv {
   font-size: 150px;
-
+  padding-right: 0px;
   animation-name: textDiv;
   animation-duration: 3s;
   animation-timing-function: linear;
 }
+
 p {
   display: grid;
   justify-items: center;
   align-items: center;
-  color: rgb(131, 25, 78);
+  color: #83194e;
+}
+.output {
+  border-right: 3px solid black;
 }
 @keyframes techDiv {
   0% {
@@ -118,18 +114,5 @@ p {
   }
   100% {
     color: hotpink;
-  }
-}
-@keyframes textDiv {
-  0% {
-    justify-self: center;
-    opacity: 0%;
-  }
-  50% {
-    transform: rotate(180deg);
-    opacity: 50%;
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
