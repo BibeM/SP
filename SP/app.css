@@ -35,7 +35,7 @@ a {
 div .first {
   font-size: 100px;
   padding-top: 42px;
-  color: #00cfc8;
+  color: #00d7e8;
 }
 
 .landingTextDiv {
@@ -50,7 +50,7 @@ p {
   justify-items: center;
   align-items: center;
 
-  color: #00cfc8;
+  color: #00d7e8;
 }
 
 .btn {
@@ -80,6 +80,6 @@ p {
   padding: 10px 50px;
   transform: translateY(-0px);
   background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
-  color: #00cfc8;
+  color: #00d7e8;
   border: solid 2px #0066cc;
 }

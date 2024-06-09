@@ -1,5 +1,5 @@
 const outputText = document.querySelector(".output");
-let typeSpeed = 100;
+let typeSpeed = 150;
 let id = 0;
 const words = ["Welcome to TechBlog"];
 
