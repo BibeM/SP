@@ -30,11 +30,11 @@ a {
   gap: 20px;
 }
 .landingTechDiv img {
-  width: 100px;
+  width: 200px;
 }
 div .first {
   font-size: 100px;
-
+  padding-top: 42px;
   color: #00cfc8;
 }
 
