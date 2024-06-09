@@ -22,12 +22,12 @@ a {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-image: linear-gradient(pink, lightyellow, lightblue);
+  background-image: url(./src/images/logo.png);
 }
 .landingTechDiv {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 55px;
+  padding: 35px;
   animation-name: techDiv;
   animation-duration: 3s;
   animation-timing-function: linear;
@@ -54,18 +54,15 @@ a {
   animation-duration: 3s;
 }
 .landingTextDiv {
-  font-size: 150px;
+  font-size: 100px;
   padding-right: 0px;
-  animation-name: textDiv;
-  animation-duration: 3s;
-  animation-timing-function: linear;
 }
 
 p {
   display: grid;
   justify-items: center;
   align-items: center;
-  color: #83194e;
+  color: #124e66;
 }
 .output {
   border-right: 3px solid black;
@@ -73,21 +70,21 @@ p {
 @keyframes techDiv {
   0% {
     width: 0%;
-    color: hotpink;
+    color: #124e66;
   }
   50% {
     width: 50%;
-    color: hotpink;
+    color: #124e66;
   }
   80% {
     width: 100%;
-    color: hotpink;
+    color: #124e66;
   }
   90% {
     color: black;
   }
   100% {
-    color: hotpink;
+    color: #124e66;
   }
 }
 @keyframes techLetter {
@@ -95,24 +92,24 @@ p {
     width: 0%;
     opacity: 0%;
     outline: black;
-    color: hotpink;
+    color: #124e66;
   }
   50% {
     width: 50%;
     opacity: 50%;
     outline: black;
-    color: hotpink;
+    color: #124e66;
   }
   80% {
     width: 100%;
     opacity: 80%;
     outline: black;
-    color: hotpink;
+    color: #124e66;
   }
   90% {
     color: black;
   }
   100% {
-    color: hotpink;
+    color: #124e66;
   }
 }
