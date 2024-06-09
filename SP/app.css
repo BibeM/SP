@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +5,7 @@
 }
 
 body {
-  font-family: Fira, sans-serif;
+  font-family: Roboto, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -19,97 +18,65 @@ a {
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   padding: 50px;
-  background-image: url(./src/images/logo.png);
+  background-image: url(./src/images/3609060.jpg);
 }
 .landingTechDiv {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 35px;
-  animation-name: techDiv;
-  animation-duration: 3s;
-  animation-timing-function: linear;
+  display: flex;
 }
-.first {
+.landingTechDiv img {
+  width: 280px;
+}
+div .first {
   font-size: 200px;
+  padding-top: 25px;
+  color: #00cfc8;
+}
 
-  animation-name: techLetter;
-  animation-duration: 3s;
-}
-.second {
-  font-size: 200px;
-  animation-name: techLetter;
-  animation-duration: 3s;
-}
-.third {
-  font-size: 200px;
-  animation-name: techLetter;
-  animation-duration: 3s;
-}
-.fourth {
-  font-size: 200px;
-  animation-name: techLetter;
-  animation-duration: 3s;
-}
 .landingTextDiv {
+  display: grid;
+  grid-template-rows: 1fr max-content;
+  gap: 50px;
   font-size: 100px;
-  padding-right: 0px;
 }
 
 p {
   display: grid;
   justify-items: center;
   align-items: center;
-  color: #124e66;
+
+  color: #00cfc8;
 }
-.output {
-  border-right: 3px solid black;
+
+.btn {
+  justify-self: center;
+  padding-top: 30px;
+  font-family: Roboto, sans-serif;
+  width: 320px;
+  height: 50px;
+  font-weight: 50px;
+  font-size: 30px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 }
-@keyframes techDiv {
-  0% {
-    width: 0%;
-    color: #124e66;
-  }
-  50% {
-    width: 50%;
-    color: #124e66;
-  }
-  80% {
-    width: 100%;
-    color: #124e66;
-  }
-  90% {
-    color: black;
-  }
-  100% {
-    color: #124e66;
-  }
-}
-@keyframes techLetter {
-  0% {
-    width: 0%;
-    opacity: 0%;
-    outline: black;
-    color: #124e66;
-  }
-  50% {
-    width: 50%;
-    opacity: 50%;
-    outline: black;
-    color: #124e66;
-  }
-  80% {
-    width: 100%;
-    opacity: 80%;
-    outline: black;
-    color: #124e66;
-  }
-  90% {
-    color: black;
-  }
-  100% {
-    color: #124e66;
-  }
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  color: #00cfc8;
+  border: solid 2px #0066cc;
 }

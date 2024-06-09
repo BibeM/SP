@@ -1,7 +1,7 @@
 const outputText = document.querySelector(".output");
 let typeSpeed = 100;
 let id = 0;
-const words = ["Lets talk about Tech..."];
+const words = ["Welcome to TechBlog"];
 
 const color = "#83194e";
 let res;
