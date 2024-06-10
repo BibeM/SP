@@ -83,3 +83,33 @@ p {
   color: #00d7e8;
   border: solid 2px #0066cc;
 }
+
+@media screen and (max-width: 768px) {
+  .landingMain {
+    padding-top: 50px;
+  }
+  .landingTechDiv {
+    display: flex;
+    padding-top: 50px;
+    gap: 0px;
+  }
+  .landingTechDiv img {
+    width: 220px;
+    padding: 35px;
+  }
+  div .first {
+    font-size: 70px;
+    padding-top: 72px;
+  }
+  .landingTextDiv {
+    font-size: 50px;
+  }
+  p {
+    justify-items: left;
+    align-items: center;
+  }
+  .btn {
+    width: 280px;
+    height: 40px;
+  }
+}
